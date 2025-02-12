@@ -13,7 +13,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const mySequences = postgresql.getSequences({
  *     database: "my_database",
@@ -91,7 +91,7 @@ export interface GetSequencesResult {
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const mySequences = postgresql.getSequences({
  *     database: "my_database",

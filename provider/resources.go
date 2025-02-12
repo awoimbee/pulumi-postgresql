@@ -27,7 +27,7 @@ import (
 	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
 	"github.com/pulumi/pulumi/sdk/v3/go/common/tokens"
 
-	"github.com/pulumi/pulumi-postgresql/provider/v3/pkg/version"
+	"github.com/awoimbee/pulumi-postgresql/provider/v3/pkg/version"
 )
 
 // all of the token components used below.
@@ -67,7 +67,7 @@ func Provider() tfbridge.ProviderInfo {
 		Keywords:         []string{"pulumi", "postgresql"},
 		License:          "Apache-2.0",
 		Homepage:         "https://pulumi.io",
-		Repository:       "https://github.com/pulumi/pulumi-postgresql",
+		Repository:       "https://github.com/awoimbee/pulumi-postgresql",
 		GitHubOrg:        "awoimbee",
 		UpstreamRepoPath: "./upstream",
 		DocRules:         &tfbridge.DocRuleInfo{EditRules: docEditRules},

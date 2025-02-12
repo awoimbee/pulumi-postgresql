@@ -7,7 +7,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/pulumi/pulumi-postgresql/sdk/v3/go/postgresql/internal"
+	"github.com/awoimbee/pulumi-postgresql/sdk/v3/go/postgresql/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
@@ -22,7 +22,7 @@ import (
 //
 // import (
 //
-//	"github.com/pulumi/pulumi-postgresql/sdk/v3/go/postgresql"
+//	"github.com/awoimbee/pulumi-postgresql/sdk/v3/go/postgresql"
 //	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 //
 // )

@@ -96,12 +96,12 @@ publishing {
                 packaging = "jar"
                 description = "A Pulumi package for creating and managing postgresql cloud resources."
 
-                url = "https://github.com/pulumi/pulumi-postgresql"
+                url = "https://github.com/awoimbee/pulumi-postgresql"
 
                 scm {
-                    connection = "git@github.com/pulumi/pulumi-postgresql.git"
-                    developerConnection = "git@github.com/pulumi/pulumi-postgresql.git"
-                    url = "https://github.com/pulumi/pulumi-postgresql"
+                    connection = "git@github.com/awoimbee/pulumi-postgresql.git"
+                    developerConnection = "git@github.com/awoimbee/pulumi-postgresql.git"
+                    url = "https://github.com/awoimbee/pulumi-postgresql"
                 }
 
                 licenses {

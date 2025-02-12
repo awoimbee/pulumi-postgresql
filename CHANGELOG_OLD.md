@@ -3,7 +3,7 @@ _(none)_
 
 ## Notice (2022-01-06)
 
-*As of this notice, using CHANGELOG.md is DEPRECATED. We will be using [GitHub Releases](https://github.com/pulumi/pulumi-postgresql/releases) for this repository*
+*As of this notice, using CHANGELOG.md is DEPRECATED. We will be using [GitHub Releases](https://github.com/awoimbee/pulumi-postgresql/releases) for this repository*
 
 ---
 
@@ -31,7 +31,7 @@ _(none)_
 * Upgrade to v1.12.0 Postgresql Terraform Provider
 
 ## 2.8.1 (2021-03-23)
-* Upgrade to pulumi-terraform-bridge v2.22.1  
+* Upgrade to pulumi-terraform-bridge v2.22.1
   **Please Note:** This includes a bug fix to the refresh operation regarding arrays
 
 ## 2.8.0 (2021-03-15)
@@ -42,7 +42,7 @@ _(none)_
 * Upgrade to v1.11.2 of the Postgresql Terraform Provider
 
 ## 2.7.1 (2021-02-16)
-* Upgrade to pulumi-terraform-bridge v2.19.0  
+* Upgrade to pulumi-terraform-bridge v2.19.0
   **Please Note:** This includes a bug fix that stops mutating resources options in the nodejs provider
 * Avoid storing config from the environment into the state
 
@@ -57,7 +57,7 @@ _(none)_
 * Upgrade to Pulumi v2.17.0
 
 ## 2.5.2 (2020-11-23)
-* Upgrade to pulumi-terraform-bridge v2.13.2  
+* Upgrade to pulumi-terraform-bridge v2.13.2
   * This adds support for import specific examples in documentation
 
 ## 2.5.1 (2020-11-09)
@@ -65,8 +65,8 @@ _(none)_
 
 ## 2.5.0 (2020-10-26)
 * Upgrade to Pulumi v2.12.0 and pulumi-terraform-bridge v2.11.0
-* Improving the accuracy of previews leading to a more accurate understanding of what will actually change rather than assuming all output properties will change.  
-  ** PLEASE NOTE:**  
+* Improving the accuracy of previews leading to a more accurate understanding of what will actually change rather than assuming all output properties will change.
+  ** PLEASE NOTE:**
   This new preview functionality can be disabled by setting `PULUMI_DISABLE_PROVIDER_PREVIEW` to `1` or `false`.
 
 ## 2.4.0 (2020-08-31)
@@ -115,7 +115,7 @@ _(none)_
 
 ## 1.3.0 (2019-12-27)
 * Namespace names in .NET SDK are adjusted to PascalCase
-([#28](https://github.com/pulumi/pulumi-postgresql/pull/28)).
+([#28](https://github.com/awoimbee/pulumi-postgresql/pull/28)).
 * Upgrade to pulumi-terraform-bridge v1.5.2
 * Upgrade to v1.4.0 of the Postgresql Terraform Provider
 

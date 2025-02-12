@@ -11,7 +11,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const extPostgresFdw = new postgresql.Extension("ext_postgres_fdw", {name: "postgres_fdw"});
  * const myserverPostgres = new postgresql.Server("myserver_postgres", {

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as postgresql from "@pulumi/postgresql";
+import * as postgresql from "@awoimbee-pulumi/postgresql";
 
 let database = new postgresql.Database("pulumi-db");
 

@@ -8,9 +8,9 @@ layout: package
 
 The Postgresql provider is available as a package in all Pulumi languages:
 
-* JavaScript/TypeScript: [`@pulumi/postgresql`](https://www.npmjs.com/package/@pulumi/postgresql)
+* JavaScript/TypeScript: [`@awoimbee-pulumi/postgresql`](https://www.npmjs.com/package/@awoimbee-pulumi/postgresql)
 * Python: [`pulumi-postgresql`](https://pypi.org/project/pulumi-postgresql/)
-* Go: [`github.com/pulumi/pulumi-postgresql/sdk/v3/go/postgresql`](https://github.com/pulumi/pulumi-postgresql)
+* Go: [`github.com/awoimbee/pulumi-postgresql/sdk/v3/go/postgresql`](https://github.com/awoimbee/pulumi-postgresql)
 * .NET: [`Pulumi.Postgresql`](https://www.nuget.org/packages/Pulumi.Postgresql)
 * Java: [`com.pulumi/postgresql`](https://central.sonatype.com/artifact/com.pulumi/postgresql)
 ## Overview
@@ -310,7 +310,7 @@ Configuring multiple servers can be done by specifying the alias option.
 {{% choosable language typescript %}}
 ```typescript
 import * as pulumi from "@pulumi/pulumi";
-import * as postgresql from "@pulumi/postgresql";
+import * as postgresql from "@awoimbee-pulumi/postgresql";
 
 const myDb1 = new postgresql.Database("my_db1", {name: "my_db1"});
 const myDb2 = new postgresql.Database("my_db2", {name: "my_db2"});
@@ -353,7 +353,7 @@ return await Deployment.RunAsync(() =>
 package main
 
 import (
-	"github.com/pulumi/pulumi-postgresql/sdk/v3/go/postgresql"
+	"github.com/awoimbee/pulumi-postgresql/sdk/v3/go/postgresql"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
@@ -942,7 +942,7 @@ config:
 ```typescript
 import * as pulumi from "@pulumi/pulumi";
 import * as gcp from "@pulumi/gcp";
-import * as postgresql from "@pulumi/postgresql";
+import * as postgresql from "@awoimbee-pulumi/postgresql";
 
 const test = new gcp.sql.DatabaseInstance("test", {
     project: "test-project",
@@ -1074,7 +1074,7 @@ package main
 
 import (
 	"github.com/pulumi/pulumi-gcp/sdk/v8/go/gcp/sql"
-	"github.com/pulumi/pulumi-postgresql/sdk/v3/go/postgresql"
+	"github.com/awoimbee/pulumi-postgresql/sdk/v3/go/postgresql"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 

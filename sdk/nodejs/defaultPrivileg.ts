@@ -13,7 +13,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const readOnlyTables = new postgresql.DefaultPrivileges("read_only_tables", {
  *     role: "test_role",
@@ -31,7 +31,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const grantTablePrivileges = new postgresql.DefaultPrivileges("grant_table_privileges", {
  *     database: exampleDb.name,
@@ -52,7 +52,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const revokePublic = new postgresql.DefaultPrivileges("revoke_public", {
  *     database: exampleDb.name,

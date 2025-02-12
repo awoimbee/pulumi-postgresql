@@ -92,7 +92,7 @@ jobs:
       shell: bash
       run: |
         # Get latest stable release. Return only first column from result (tag).
-        LAST_VERSION=$(gh release view --repo pulumi/pulumi-postgresql --json tagName -q .tagName || echo "No stable release" )
+        LAST_VERSION=$(gh release view --repo awoimbee/pulumi-postgresql --json tagName -q .tagName || echo "No stable release" )
         {
           echo 'summary<<EOF'
           if [[ "$LAST_VERSION" != "No stable release" ]]; then
@@ -194,7 +194,7 @@ jobs:
     # Only run for non-prerelease, if the publish_go_sdk job was successful or skipped
     if: inputs.isPrerelease == false
     needs: create_docs_build
-    
+
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo

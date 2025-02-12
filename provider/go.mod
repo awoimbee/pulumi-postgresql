@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-postgresql/provider/v3
+module github.com/awoimbee/pulumi-postgresql/provider/v3
 
 go 1.23
 

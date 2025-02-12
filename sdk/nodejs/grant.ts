@@ -16,7 +16,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * // Grant SELECT privileges on 2 tables
  * const readonlyTables = new postgresql.Grant("readonly_tables", {
@@ -54,7 +54,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const revokePublic = new postgresql.Grant("revoke_public", {
  *     database: "test_db",

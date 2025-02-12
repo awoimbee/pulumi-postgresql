@@ -15,7 +15,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as postgresql from "@pulumi/postgresql";
+ * import * as postgresql from "@awoimbee-pulumi/postgresql";
  *
  * const myRole = new postgresql.Role("my_role", {
  *     name: "my_role",

@@ -1,5 +1,5 @@
 {
-    "name": "@pulumi/postgresql",
+    "name": "@awoimbee-pulumi/postgresql",
     "version": "3.0.0-alpha.0+dev",
     "description": "A Pulumi package for creating and managing postgresql cloud resources.",
     "keywords": [
@@ -7,7 +7,7 @@
         "postgresql"
     ],
     "homepage": "https://pulumi.io",
-    "repository": "https://github.com/pulumi/pulumi-postgresql",
+    "repository": "https://github.com/awoimbee/pulumi-postgresql",
     "license": "Apache-2.0",
     "scripts": {
         "build": "tsc"
