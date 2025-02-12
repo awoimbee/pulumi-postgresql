@@ -1,4 +1,4 @@
 [submodule "upstream"]
 	path = upstream
-	url = https://github.com/cyrilgdn/terraform-provider-postgresql.git
+	url = https://github.com/awoimbee/terraform-provider-postgresql.git
 	ignore = dirty
