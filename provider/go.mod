@@ -5,7 +5,7 @@ go 1.23
 toolchain go1.23.2
 
 require (
-	github.com/cyrilgdn/terraform-provider-postgresql v0.0.0
+	github.com/awoimbee/terraform-provider-postgresql v0.0.0
 	github.com/pulumi/providertest v0.1.3
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.102.0
 	github.com/pulumi/pulumi/sdk/v3 v3.147.0
@@ -245,4 +245,4 @@ require (
 
 replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20250124205414-92ccb3765401
 
-replace github.com/cyrilgdn/terraform-provider-postgresql => ../upstream
+replace github.com/awoimbee/terraform-provider-postgresql => ../upstream

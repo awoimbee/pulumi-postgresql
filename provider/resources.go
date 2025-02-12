@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"unicode"
 
-	"github.com/cyrilgdn/terraform-provider-postgresql/postgresql"
+	"github.com/awoimbee/terraform-provider-postgresql/postgresql"
 
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 	tfbridgetokens "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge/tokens"
@@ -68,7 +68,7 @@ func Provider() tfbridge.ProviderInfo {
 		License:          "Apache-2.0",
 		Homepage:         "https://pulumi.io",
 		Repository:       "https://github.com/pulumi/pulumi-postgresql",
-		GitHubOrg:        "cyrilgdn",
+		GitHubOrg:        "awoimbee",
 		UpstreamRepoPath: "./upstream",
 		DocRules:         &tfbridge.DocRuleInfo{EditRules: docEditRules},
 		Config: map[string]*tfbridge.SchemaInfo{
